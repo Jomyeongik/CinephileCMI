@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2, label, legend{
+    color: white;
+}
+
+
+fieldset{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    font-family: 'KiMM_Bold', sans-serif;
+
+}
+.sign{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+label {
+    width: 80px;
+    text-align: left;
+    float: left;
+}
+
+#welcome{
+    text-align: center;
+    margin-top: 200px;
+}

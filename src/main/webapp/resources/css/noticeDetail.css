@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Font styles */
+@font-face {
+  font-family: 'KIMM_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+span, p{
+	font-family: 'KiMM_Bold';
+	color: white;
+}
+
+h1, ul, li{
+  color: #FFF6E0; /* White text color */
+  font-family: 'KiMM_Bold';
+}
+h1{
+	text-align: center;
+}
+
+fieldset{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.btn {
+    font-family: 'KIMM_Bold';
+    position: relative;
+    border: 1px solid #FFF6E0;
+    border-radius: 15%;
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    color: #FFF6E0;
+    background-color: black;
+  }
+  
+.btn:active{
+    box-shadow: 0 0 #ecc0c0; background-color: #ecc0c0;
+}
+
+#btn1{
+  width: 200px;
+  margin: 0 auto;
+}
+
+#detail{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #FFF6E0;
+}

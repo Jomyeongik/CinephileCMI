@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: 'KIMM_Bold';
+}
+#sampleImg{
+    width: 960px;
+    border-right: 3px dotted white;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+#sampleImg img {
+    position: relative;
+    left: 200px;
+}
+
+.contentSet{
+    width: 950px;
+    height: 900px;
+}
+#content1, #content2{
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.moivePoster{
+    height: 300px;
+    
+}
+#image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 1s ease-in-out;
+        cursor: pointer;
+    }
+.crossfade {
+        opacity: 0;
+    }
+
+
+img{
+    border-radius: 5%;
+}
+.detail{
+    text-align: center;
+}
+
+.btn{
+    color: black;
+    background-color: gold;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#btnMargin{
+    margin-bottom: 100px;
+}

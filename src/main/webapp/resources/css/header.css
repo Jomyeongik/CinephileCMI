@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+.headArea{
+    border: 1px solid black;
+    width: 1900px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin: 0 auto;
+    
+}  
+
+
+.headArea ul {
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    
+}
+
+.headArea ul li{
+    border-radius: 30px;
+    background-color: black;
+    display: inline;
+    padding: 20px;
+    margin-left: 50px;
+    font-family: 'KiMM_Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    margin-left: 200px;
+}
+
+#login button{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    font-family: 'KiMM_Bold', sans-serif;
+}
+
